@@ -4,11 +4,7 @@ theme = "zzo"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-<<<<<<< HEAD
-hasCJKLanguage = false
-=======
 hasCJKLanguage = true
->>>>>>> 25bcae951f191f423f16aa1f89e28135868f1c48
 
 summaryLength = 70
 buildFuture = true
@@ -19,7 +15,7 @@ enableEmoji = true
 paginate = 13
 rssLimit = 100
 
-enableGitInfo = true
+enableGitInfo = false
 googleAnalytics = ""
 
 [markup]
@@ -55,3 +51,6 @@ googleAnalytics = ""
   category = "categories"
   tag = "tags"
   series = "series"
+
+[params]
+  GithubEdit = "https://github.com/yhjedward/learn_blog/edit/master/content/en/"

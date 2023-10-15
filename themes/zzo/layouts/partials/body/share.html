@@ -1,5 +1,22 @@
 {{ if $.Param "share" }}
 <div class="donation">
+  <!-- start: 在github上编辑本页 -->
+  <span>
+    {{ if .IsPage}} 
+    {{ if .File.Path}}
+    {{ $Rmd := (print .File.BaseFileName ".Rmd") }}
+    {{ if (where (readDir (print "content/en/" .File.Dir)) "Name" $Rmd) }}
+    {{ $.Scratch.Set "FilePath" (print .File.Dir $Rmd) }}
+    {{ else }}
+    {{ $.Scratch.Set "FilePath" .File.Path }}
+    {{ end }}
+    {{ with .Site.Params.GithubEdit}}
+    <a href='{{ . }}{{ $.Scratch.Get "FilePath" }}'>Edit this page</a>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+  </span>
+  <!-- end: 在github上编辑本页 -->
   <div class="donation__message">
     {{ i18n "share-message" }}
   </div>

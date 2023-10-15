@@ -60,24 +60,14 @@ publicationIcon = "📚"
 typeIcon = "🎯"
 
 # whoami
-<<<<<<< HEAD
 myname = "YHJ"
 email = "y3021454052@gmail.com"
 whoami = "最咸的鱼"
-=======
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
->>>>>>> 25bcae951f191f423f16aa1f89e28135868f1c48
 bioImageUrl = ""
 useGravatar = false
 location = "Seoul, Korea"
 organization = "Hugo"
-<<<<<<< HEAD
 link = "https://yhjedward.github.io/en/"
-=======
-link = "https://zzossig.io/ko"
->>>>>>> 25bcae951f191f423f16aa1f89e28135868f1c48
 
 # sidebar
 enableBio = false
@@ -101,11 +91,7 @@ enableSidebarPostsByOrder = false
 # footer
 showPoweredBy = false
 showFeedLinks = true
-<<<<<<< HEAD
 showSocialLinks = false
-=======
-showSocialLinks = true
->>>>>>> 25bcae951f191f423f16aa1f89e28135868f1c48
 enableLangChange = true
 enableThemeChange = true
 
@@ -179,11 +165,7 @@ commento = false
   phone = ""
   facebook = "http://example.org/"
   twitter = "http://example.org/"
-<<<<<<< HEAD
   github = "https://github.com/yhjedward/learn_blog"
-=======
-  github = "https://github.com/zzossig/hugo-theme-zzo"
->>>>>>> 25bcae951f191f423f16aa1f89e28135868f1c48
   stack-overflow = ""
   instagram = ""
   google-plus = ""
