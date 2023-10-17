@@ -6,14 +6,19 @@ type: gallery
 mode: one-by-one
 description: "photo gallery"
 images:
-  - image: beach.jpg
-    caption: beach, women, car
-  - image: beautiful.jpg
-    caption: beautiful women
-  - image: people.jpg
-    caption: man
-  - image: child.jpg
-    caption: child
+  - image: book_1.jpg
+    caption: 进度
+    content: 进度 2
+  - image: book_2.jpg
+    caption: 进度
+  - image: book_3.jpg
+    caption: 进度
+  - image: book_4.jpg
+    caption: 进度
+  - image: book_5.jpg
+    caption: 进度
+  - image: book_6.jpg
+    caption: 进度
 image: images/feature2/gallery.png
 ---
 
