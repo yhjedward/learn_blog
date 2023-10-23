@@ -27,7 +27,7 @@ header:
     title:
       - YhjEdward
     subtitle:
-      - 记录生活点滴
+      - 出来混,迟早要还的.
     titleColor: 
     titleShadow: true
     titleFontSize: 44

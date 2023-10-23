@@ -23,7 +23,12 @@
 <script defer src="{{ $fadeinout.RelPermalink }}"></script>
 {{ $closest := resources.Get "js/helper/closest.js" | resources.Minify }}
 <script defer src="{{ $closest.RelPermalink }}"></script>
-  
+
+<!-- 图片放大 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.12/dist/fancybox.css">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.12/dist/fancybox.umd.js"></script>
+
+
 <script>
   "use strict";
 
