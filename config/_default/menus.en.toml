@@ -39,13 +39,25 @@
   weight = 5
 
 [[main]]
+  identifier = "categories"
+  name = "categories"
+  url = "categories"
+  weight = 6
+
+[[main]]
+  identifier = "tags"
+  name = "tags"
+  url = "tags"
+  weight = 7
+
+[[main]]
   identifier = "showcase"
   name = "Showcase"
   url = "showcase"
-  weight = 6
+  weight = 8
 
 [[main]]
   identifier = "publication"
   name = "Pub"
   url = "publication"
-  weight = 7
+  weight = 9

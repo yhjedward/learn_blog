@@ -19,6 +19,8 @@ images:
     caption: 进度
   - image: book_6.jpg
     caption: 进度
+  - image: book_7.jpg
+    caption: 放大电路
 image: images/feature2/gallery.png
 ---
 
